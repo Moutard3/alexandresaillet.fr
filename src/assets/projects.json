@@ -1,0 +1,129 @@
+[
+  {
+    "display": true,
+    "img": "deuxmetrescubes_site.png",
+    "name": "DeuxMetresCubes.fr",
+    "link": "https://deuxmetrescubes.fr",
+    "description": "DeuxMetresCubes est une association loi 1901 qui propose des services de divertissement. Le site de type vitrine permet un affichage des différentes activités et de l'équipe.",
+    "tasks": [
+      "Intégration du design"
+    ],
+    "stack": "PHP (CakePHP), HTML5, CSS3, Javascript (jQuery)"
+  },
+  {
+    "display": true,
+    "img": "fiuc_site.jpg",
+    "name": "FillItUpChallenge.eu",
+    "link": "https://fillitupchallenge.eu",
+    "description": "Fill it up Challenge est un évènement sur le jeu Minecraft. Le site consiste à permettre l'inscription des participants, la formation d'équipes. Une partie administration et suivi de l'évènement est aussi présente.",
+    "tasks": [
+      "Adaptation du design à un affichage responsive.",
+      "Système d'inscription en plusieurs étapes sans rechargement de la page.",
+      "Validation du compte & invitation de coéquipiers par mail.",
+      "Panel d'administration de l'événement."
+    ],
+    "stack": "PHP (CakePHP), HTML5, CSS3, Javascript (jQuery)"
+  },
+  {
+    "display": true,
+    "img": "fousdupuy_site.jpg",
+    "name": "LesFousDuPuy.fr",
+    "link": "https://lesfousdupuy.fr",
+    "description": "Les Fous du Puy est un projet de reconstruction du parc du Puy du Fou, avec ses spectacles, dans Minecraft. Le site permet une visualisation de l'avancée du projet, un affichage des différents articles de presses, ainsi que le planning des spectacles.",
+    "tasks": [
+      "Adaptation du design à un affichage responsive.",
+      "Amélioration du SEO."
+    ],
+    "stack": "HTML5, CSS3"
+  },
+  {
+    "display": true,
+    "img": "donttakemycube_site.jpg",
+    "name": "DontTakeMyCube.fr",
+    "link": "https://donttakemycube.fr",
+    "description": "Don't Take My Cube est un serveur de jeu pour Minecraft. Le site permet d'afficher les informations sur le serveur ainsi que son état actuel.",
+    "tasks": [
+      "Intégration d'une API pour afficher le statut du serveur."
+    ],
+    "stack": "HTML5, CSS3, Javascript (jQuery)"
+  },
+  {
+    "display": true,
+    "img": "mpc_site.jpg",
+    "name": "MCParksConvention.com",
+    "link": "https://mcparksconvention.com",
+    "description": "La Minecraft Parks Convention est une convention sur le jeu Minecraft, réunissant des serveurs de type Parc d'attractions. Le site permet d'afficher les exposants ainsi qu'une description de leur projet.",
+    "tasks": [
+      "Inscription des exposants.",
+      "Affichage dans un ordre aléatoire des exposants."
+    ],
+    "stack": "PHP (CakePHP), HTML5, CSS3"
+  },
+  {
+    "display": true,
+    "img": "mcparksawards_site.png",
+    "name": "Minecraft Parks Awards",
+    "link": "https://mcparksawards.com",
+    "description": "Les Minecraft Parks Awards sont une remise de prix pour les serveurs Minecraft représentant un parc d'attraction. ",
+    "tasks": [
+      "Mise en place du CMS OctoberCMS.",
+      "Intégration du thème créé sur WIX dans le CMS.",
+      "Mise en place de l'internationalisation du site.",
+      "Mise à jour du thème au fil de l'évènement."
+    ],
+    "stack": "HTML5, CSS3, PHP,  Laravel, OctoberCMS,  Blade, VueJS"
+  },
+  {
+    "display": true,
+    "img": "hackinthebox_site.png",
+    "name": "Hack'in The Box",
+    "link": "",
+    "description": "Hack'in The Box est un jeu de type Escape Game où une personne est enfermée dans une pièce et doit trouver des codes en suivant des indices founit par un coéquipier à l'extérieur de la pièce.<br>Le programme réalisé est l'écran de l'extérieur, où il est possible de rentrer les codes et d'accéder aux différents indices.\n\n",
+    "tasks": [
+      "Intégration d'un design png en application web responsive."
+    ],
+    "stack": "HTML5, CSS3, NuxtJS (VueJS)"
+  },
+  {
+    "display": true,
+    "img": "pronocore_site.jpg",
+    "name": "Pronocore",
+    "link": "",
+    "description": "Pronocore est un site de pronostics sportifs.",
+    "tasks": [
+      "Intégration d'un template HTML avec CakePHP.",
+      "Système de notification à chaque nouveau pronostic.",
+      "Système d'abonnement avec Stripe.",
+      "Possibilité de l'ajouter à l'écran d'accueil sur mobile (PWA).",
+      "Panel administrateur pour gérer les utilisateurs, les pronostics, les messages affichés sur le site, les abonnements.",
+      "Développement d'une application NodeJS pour gérer l'envoi des notifications.",
+      "Affichage du site en plusieurs langues."
+    ],
+    "stack": "HTML5, CSS3, Javascript (jQuery, NodeJS), PHP (CakePHP)"
+  },
+  {
+    "display": false,
+    "img": "tankchallenge_jeu.png",
+    "name": "DeuxMetresCubes.fr",
+    "link": "https://deuxmetrescubes.fr",
+    "description": "DeuxMetresCubes est une association loi 1901 qui propose des services de divertissement. Le site de type vitrine permet un affichage des différentes activités et de l'équipe.",
+    "stack": "PHP (CakePHP), HTML5, CSS3, Javascript (jQuery)"
+  },
+  {
+    "display": true,
+    "img": "dashboardtrading_site.png",
+    "name": "Dashboard.Trading",
+    "link": "https://dashboard.trading",
+    "description": "Dashboard.Trading est un outil de suivi et statistiques dans le domaine des cryptomonnaies. Il permet d'agréger les données de plusieurs services pour afficher les informations importantes à un même endroit.",
+    "tasks": [
+      "Récupération des données via plusieurs API à intervalle régulier gérable par AgendaJS.",
+      "Mise en place d'Agendash avec authentification BASIC pour lancer / mettre en pause manuellement les tâches programmées.",
+      "Stockage des données récupérées sur une base de donnée NoSQL (MongoDB).",
+      "Mise à disposition des données via une API REST (ExpressJS/HAPI/Loopback).",
+      "Mise en place des requêtes authentifiées pour accéder uniquement aux données de son compte (JWT).",
+      "Création d'un tableau de bord pour l'affichage des données de l'API (tables, graphiques et résumés des données) à l'aide de CoreUI.",
+      "Séparation en 3 applications (dashboard, api, jobs) pour permettre une montée en charge plus simple."
+    ],
+    "stack": "HTML5, CSS3, Bootstrap, ExpressJS, HAPI, Loopback, JWT, BASIC, MongoDB, REST, TypeScript, AgendaJS, VueJS, CoreUI, ChartJS, Trello, Git, NGINX"
+  }
+]
